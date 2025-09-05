@@ -27,17 +27,17 @@ const Index = () => {
       <RSVPForm />
       
       {/* Footer */}
-      <footer className="py-12 px-4 bg-primary/5 text-center">
+      <footer className="py-12 px-4 bg-primary/5 text-center rtl">
         <div className="max-w-2xl mx-auto">
           <p className="font-script text-3xl text-primary mb-4">
-            With Love & Gratitude
+            با عشق و قدردانی
           </p>
-          <p className="text-muted-foreground font-serif">
-            We can't wait to celebrate this special day with all of you
+          <p className="text-muted-foreground font-persian">
+            مشتاقانه منتظر جشن این روز ویژه با همه شما هستیم
           </p>
           <div className="mt-6 flex items-center justify-center gap-4">
             <div className="w-12 h-0.5 bg-primary/30"></div>
-            <span className="font-script text-primary text-2xl">Sarah & Michael</span>
+            <span className="font-script text-primary text-2xl">فاطمه و حسین</span>
             <div className="w-12 h-0.5 bg-primary/30"></div>
           </div>
         </div>

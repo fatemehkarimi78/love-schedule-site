@@ -40,9 +40,9 @@ const CountdownTimer = ({ targetDate }: CountdownTimerProps) => {
   }, [targetDate]);
 
   return (
-    <div className="flex flex-col items-center space-y-6">
+    <div className="flex flex-col items-center space-y-6 rtl">
       <h2 className="font-script text-4xl md:text-5xl text-primary animate-glow">
-        Until We Say "I Do"
+        تا گفتن "بله"
       </h2>
       
       <div className="flex flex-wrap justify-center gap-4 md:gap-8">
@@ -54,8 +54,8 @@ const CountdownTimer = ({ targetDate }: CountdownTimerProps) => {
             <div className="text-3xl md:text-4xl font-bold text-primary font-serif">
               {value.toString().padStart(2, '0')}
             </div>
-            <div className="text-sm uppercase tracking-wider text-muted-foreground font-medium">
-              {unit}
+            <div className="text-sm uppercase tracking-wider text-muted-foreground font-medium font-persian">
+              {unit === 'days' ? 'روز' : unit === 'hours' ? 'ساعت' : unit === 'minutes' ? 'دقیقه' : 'ثانیه'}
             </div>
           </div>
         ))}

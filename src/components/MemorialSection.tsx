@@ -5,17 +5,17 @@ const MemorialSection = () => {
   return (
     <section className="py-16 px-4 bg-gradient-elegant">
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 rtl">
           <Star className="w-12 h-12 text-primary mx-auto mb-4 animate-glow" />
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
-            In Loving Memory
+            به یاد عزیزان
           </h2>
-          <p className="text-lg text-muted-foreground font-serif">
-            Honoring those who are with us in spirit
+          <p className="text-lg text-muted-foreground font-persian">
+            گرامی‌داشت کسانی که در روح با ما هستند
           </p>
         </div>
 
-        <Card className="shadow-romantic p-8 md:p-12 bg-card/90 backdrop-blur-sm relative">
+        <Card className="shadow-romantic p-8 md:p-12 bg-card/90 backdrop-blur-sm relative rtl">
           <div className="text-center space-y-6">
             <div className="flex justify-center items-center gap-4 mb-6">
               <div className="w-16 h-0.5 bg-primary/30"></div>
@@ -24,24 +24,24 @@ const MemorialSection = () => {
             </div>
 
             <div className="space-y-4">
-              <p className="font-serif text-lg leading-relaxed text-foreground/90">
-                Though some cannot be with us today, their love and memories remain forever in our hearts. 
-                We carry their blessings as we begin this new chapter of our lives together.
+              <p className="font-persian text-lg leading-relaxed text-foreground/90">
+                اگرچه برخی امروز نمی‌توانند با ما باشند، اما عشق و خاطراتشان برای همیشه در قلب‌هایمان باقی می‌ماند. 
+                ما برکات آنها را با خود حمل می‌کنیم در آغاز این فصل جدید زندگی مشترکمان.
               </p>
               
               <div className="py-6">
                 <p className="font-script text-2xl text-primary mb-4">
-                  Forever in Our Hearts
+                  برای همیشه در قلب‌هایمان
                 </p>
-                <div className="space-y-2 text-muted-foreground font-serif">
-                  <p>Grandpa William • Grandma Rose</p>
-                  <p>Uncle James • Aunt Patricia</p>
+                <div className="space-y-2 text-muted-foreground font-persian">
+                  <p>پدربزرگ علی • مادربزرگ زهرا</p>
+                  <p>عمو حسن • عمه فاطمه</p>
                 </div>
               </div>
 
-              <p className="font-serif text-lg leading-relaxed text-foreground/90 italic">
-                "Those we love don't go away, they walk beside us every day. 
-                Unseen, unheard, but always near, still loved, still missed, and very dear."
+              <p className="font-persian text-lg leading-relaxed text-foreground/90 italic">
+                "کسانی که دوستشان داریم هرگز از ما دور نمی‌شوند، هر روز در کنار ما قدم برمی‌دارند. 
+                نادیده، نشنیده، اما همیشه نزدیک، هنوز دوست‌داشتنی، هنوز دلتنگ‌شده، و بسیار عزیز."
               </p>
             </div>
 

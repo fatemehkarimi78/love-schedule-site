@@ -17,39 +17,39 @@ interface ScheduleItem {
 
 const scheduleItems: ScheduleItem[] = [
   {
-    time: "4:00 PM",
-    title: "Wedding Ceremony Begins",
-    description: "The celebration of love starts",
+    time: "۱۹:۰۰",
+    title: "شروع مراسم",
+    description: "آغاز جشن عشق و زندگی",
     icon: Heart
   },
   {
-    time: "4:30 PM", 
-    title: "Bride & Groom Entrance",
-    description: "The magical moment arrives",
+    time: "۲۰:۰۰", 
+    title: "ورود عروس و داماد",
+    description: "لحظه جادویی فرا می‌رسد",
     icon: Users
   },
   {
-    time: "6:00 PM",
-    title: "Dinner Reception",
-    description: "Delicious feast with family and friends",
+    time: "۲۰:۳۰",
+    title: "شام و پذیرایی",
+    description: "ضیافت لذیذ با خانواده و دوستان",
     icon: Utensils
   },
   {
-    time: "8:00 PM",
-    title: "After Party",
-    description: "Dancing and celebration continues",
+    time: "۲۲:۰۰",
+    title: "رقص و جشن", 
+    description: "رقص و جشن ادامه دارد",
     icon: Music
   },
   {
-    time: "9:00 PM",
-    title: "Photography Session",
-    description: "Capture precious memories",
+    time: "۲۳:۰۰",
+    title: "عکاسی یادگاری",
+    description: "ثبت خاطرات گرانبها",
     icon: Camera
   },
   {
-    time: "11:00 PM",
-    title: "Grand Finale",
-    description: "A perfect end to a perfect day",
+    time: "۰۱:۰۰",
+    title: "پایان عالی",
+    description: "پایان کامل برای روزی کامل",
     icon: Star
   }
 ];
@@ -58,12 +58,12 @@ const WeddingSchedule = () => {
   return (
     <section className="py-16 px-4 bg-gradient-sunset">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 rtl">
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4 animate-fade-in">
-            Our Special Day
+            روز ویژه ما
           </h2>
-          <p className="text-lg text-muted-foreground font-serif">
-            Join us as we celebrate our love story
+          <p className="text-lg text-muted-foreground font-persian">
+            به ما در جشن داستان عشقمان بپیوندید
           </p>
         </div>
 
@@ -81,15 +81,15 @@ const WeddingSchedule = () => {
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Content */}
-                <div className={`flex-1 ${index % 2 === 0 ? 'text-right' : 'text-left'} max-w-md`}>
+                <div className={`flex-1 ${index % 2 === 0 ? 'text-right' : 'text-left'} max-w-md rtl`}>
                   <div className="bg-card shadow-soft rounded-2xl p-6 transition-elegant hover:shadow-romantic">
-                    <div className="text-primary font-bold text-lg mb-2 font-serif">
+                    <div className="text-primary font-bold text-lg mb-2 font-persian">
                       {item.time}
                     </div>
                     <h3 className="font-script text-2xl text-foreground mb-2">
                       {item.title}
                     </h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-muted-foreground font-persian">
                       {item.description}
                     </p>
                   </div>

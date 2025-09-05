@@ -3,7 +3,7 @@ import couplePortrait from '@/assets/couple-portrait.jpg';
 import { Heart, Calendar } from 'lucide-react';
 
 const HeroSection = () => {
-  const weddingDate = "2024-06-15T16:00:00";
+  const weddingDate = "2024-09-15T19:00:00";
 
   return (
     <section className="min-h-screen relative overflow-hidden bg-gradient-romantic flex items-center justify-center">
@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="absolute top-32 right-16 w-16 h-16 bg-accent/10 rounded-full blur-xl animate-float" style={{ animationDelay: '2s' }}></div>
       <div className="absolute bottom-20 left-20 w-24 h-24 bg-primary/5 rounded-full blur-xl animate-float" style={{ animationDelay: '4s' }}></div>
 
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto rtl">
         {/* Main Header */}
         <div className="mb-12 animate-fade-in">
           <div className="flex items-center justify-center gap-4 mb-6">
@@ -32,16 +32,16 @@ const HeroSection = () => {
           </div>
           
           <h1 className="font-script text-6xl md:text-8xl lg:text-9xl text-primary mb-6 animate-glow">
-            Sarah & Michael
+            فاطمه و حسین
           </h1>
           
-          <p className="font-serif text-xl md:text-2xl text-muted-foreground mb-8">
-            Together with our families, we invite you to celebrate our wedding
+          <p className="font-persian text-xl md:text-2xl text-muted-foreground mb-8">
+            با خانواده‌هایمان، شما را به جشن عروسی‌مان دعوت می‌کنیم
           </p>
           
           <div className="flex items-center justify-center gap-3 text-lg font-medium text-foreground/80">
             <Calendar className="w-5 h-5 text-primary" />
-            <span className="font-serif">Saturday, June 15th, 2024</span>
+            <span className="font-persian">شنبه، ۲۵ شهریور ۱۴۰۴</span>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const HeroSection = () => {
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-romantic mx-auto animate-float">
               <img
                 src={couplePortrait}
-                alt="Sarah and Michael - Wedding Couple"
+                alt="فاطمه و حسین - زوج عاشق"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -68,12 +68,12 @@ const HeroSection = () => {
         </div>
 
         {/* Save the Date */}
-        <div className="mt-12 animate-fade-in" style={{ animationDelay: '1.5s' }}>
+        <div className="mt-12 animate-fade-in rtl" style={{ animationDelay: '1.5s' }}>
           <p className="font-script text-3xl md:text-4xl text-primary/80">
-            Save the Date
+            تاریخ را یادداشت کنید
           </p>
-          <p className="font-serif text-muted-foreground mt-2">
-            More details to follow
+          <p className="font-persian text-muted-foreground mt-2">
+            منتظر حضور گرم شما هستیم
           </p>
         </div>
       </div>

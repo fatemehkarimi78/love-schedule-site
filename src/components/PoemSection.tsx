@@ -5,17 +5,17 @@ const PoemSection = () => {
   return (
     <section className="py-16 px-4 bg-gradient-sunset">
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 rtl">
           <Heart className="w-12 h-12 text-primary mx-auto mb-4 animate-heartbeat" />
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
-            Words of Love
+            کلمات عشق
           </h2>
-          <p className="text-lg text-muted-foreground font-serif">
-            A poem that captures the essence of our journey together
+          <p className="text-lg text-muted-foreground font-persian">
+            شعری که جوهره سفر مشترکمان را به تصویر می‌کشد
           </p>
         </div>
 
-        <Card className="shadow-romantic p-8 md:p-12 bg-card/90 backdrop-blur-sm relative overflow-hidden">
+        <Card className="shadow-romantic p-8 md:p-12 bg-card/90 backdrop-blur-sm relative overflow-hidden rtl">
           {/* Decorative quotes */}
           <Quote className="absolute top-4 left-4 w-8 h-8 text-primary/20 transform rotate-180" />
           <Quote className="absolute bottom-4 right-4 w-8 h-8 text-primary/20" />
@@ -23,38 +23,38 @@ const PoemSection = () => {
           <div className="relative z-10">
             <div className="text-center space-y-6">
               <div className="font-serif text-lg md:text-xl leading-relaxed text-foreground/90">
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-                  Two hearts that beat as one today,
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '0.2s' }}>
+                  دو قلب که امروز یکسان می‌تپند،
                 </p>
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-                  Two souls that found their destined way.
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '0.4s' }}>
+                  دو روح که راه سرنوشتشان را یافتند.
                 </p>
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-                  Through seasons of both joy and tears,
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '0.6s' }}>
+                  در فصل‌های شادی و اشک‌ها،
                 </p>
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-                  We've grown in love throughout the years.
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '0.8s' }}>
+                  در طول سال‌ها در عشق رشد کردیم.
                 </p>
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '1.0s' }}>
-                  Now hand in hand, we take this vow,
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '1.0s' }}>
+                  حال دست در دست، این عهد را می‌بندیم،
                 </p>
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '1.2s' }}>
-                  To love forever, starting now.
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '1.2s' }}>
+                  که از امروز تا ابد عشق بورزیم.
                 </p>
-                <p className="mb-4 animate-fade-in" style={{ animationDelay: '1.4s' }}>
-                  With friends and family gathered near,
+                <p className="mb-4 animate-fade-in font-persian" style={{ animationDelay: '1.4s' }}>
+                  با دوستان و خانواده در کنارمان،
                 </p>
-                <p className="animate-fade-in" style={{ animationDelay: '1.6s' }}>
-                  We celebrate this moment dear.
+                <p className="animate-fade-in font-persian" style={{ animationDelay: '1.6s' }}>
+                  این لحظه عزیز را جشن می‌گیریم.
                 </p>
               </div>
               
               <div className="pt-6 border-t border-border/50">
                 <p className="font-script text-2xl text-primary animate-fade-in" style={{ animationDelay: '1.8s' }}>
-                  May our love story never end,
+                  باشد که داستان عشق ما هرگز پایان نیابد،
                 </p>
-                <p className="font-script text-2xl text-primary animate-fade-in" style={{ animationDelay: '2.0s' }}>
-                  As lovers, partners, and best friends.
+                <p className="font-script text-2xl text-primary animate-fade-in font-persian" style={{ animationDelay: '2.0s' }}>
+                  به عنوان عاشق، شریک، و بهترین دوست.
                 </p>
               </div>
             </div>
@@ -66,9 +66,9 @@ const PoemSection = () => {
         </Card>
 
         {/* Author attribution */}
-        <div className="text-center mt-8">
-          <p className="text-muted-foreground font-serif italic">
-            Written with love for this special day
+        <div className="text-center mt-8 rtl">
+          <p className="text-muted-foreground font-persian italic">
+            نوشته شده با عشق برای این روز ویژه
           </p>
         </div>
       </div>
